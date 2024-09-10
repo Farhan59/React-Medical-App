@@ -1,0 +1,70 @@
+.disease-prediction-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .left-side,
+  .right-side {
+    width: 48%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .highest-prediction {
+    margin-top: 20px;
+  }
+  
+  .pie-chart ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pie-chart li {
+    margin-bottom: 10px;
+  }
+  
+  .disease-name {
+    font-weight: bold;
+  }
+  
+  .percentage {
+    margin-left: 10px;
+  }
+  
+  .disease-details {
+    margin-bottom: 20px;
+  }
+  
+  .disease-details h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .disease-details p {
+    margin-bottom: 10px;
+  }
+  
+  .disease-details h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .disease-details ul {
+    padding-left: 20px;
+  }
+  
+  .disease-details li {
+    margin-bottom: 5px;
+  }
+  

@@ -1,0 +1,116 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('D:/VS Code/react-medical-app/src/Assets/image1.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.registration-form {
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .1);
+  backdrop-filter: blur(30px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 40px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  width: 700px;
+ 
+}
+
+h1,
+h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 1px;
+}
+
+.form-content {
+  margin-top: 1px;
+}
+
+.form-type {
+  display: flex;
+  margin-bottom: 1px;
+}
+
+.form-type button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.form-type button.active {
+  background-color: #5d9abb;
+  color: white;
+}
+
+.account-link1 {
+  color: #faf7f7;
+  text-align: right;
+  text-decoration: none;
+  margin-bottom: 1px;
+}
+
+.account-link1:hover {
+  text-decoration: none;
+  color: #faf7f7;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1px;
+}
+
+.form-group {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.form-group:last-child {
+  margin-right: 0;
+}
+
+label {
+  color: white;
+  text-align: left;
+  display: block;
+  margin-bottom: 1px;
+}
+
+input,
+select {
+  width: 100%;
+  height: auto;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+}
+
+.submit-btn {
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  font-size: 16px;
+  color:black;
+  font-weight: 700;
+}
+
+.form-note {
+  text-align: center;
+  color: white;
+  margin-top: 1px;
+}

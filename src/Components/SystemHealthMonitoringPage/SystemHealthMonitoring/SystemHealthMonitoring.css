@@ -1,0 +1,54 @@
+.system-health-monitoring-container {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.system-status,
+.uptime,
+.errors {
+    margin-top: 20px;
+}
+
+.status {
+    color: #28a745;
+    /* Green for operational status */
+}
+
+.uptime-percentage {
+    color: #007bff;
+    /* Blue for uptime percentage */
+}
+
+.error-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.error-item {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.timestamp {
+    font-size: 0.9rem;
+    color: #6c757d;
+    /* Gray for timestamp */
+}
+
+.error-message {
+    margin: 5px 0 0;
+    color: #dc3545;
+    /* Red for error messages */
+}

@@ -1,0 +1,88 @@
+/* src/Components/Patient/Value/Value.css */
+
+.value-container {
+    display: flex;
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    background-color: #f5f5f5;
+  }
+  
+  .value-content {
+    flex: 1;
+    padding-right: 2rem;
+  }
+  
+  .value-title {
+    color: #01257D;
+    font-size: 2rem;
+  }
+  
+  .value-subtitle {
+    color: #333;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+  }
+  
+  .value-description {
+    color: #666;
+    margin-top: 1rem;
+  }
+  
+  .value-items {
+    margin-top: 2rem;
+  }
+  
+  .value-item {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .value-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .value-icon {
+    margin-right: 1rem;
+  }
+  
+  .value-item h4 {
+    flex-grow: 1;
+    margin: 0;
+  }
+  
+  .expand-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .value-item-expanded {
+    background-color: white;
+    padding: 1rem;
+    margin-top: -0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0 0 8px 8px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  .value-image {
+    flex: 1;
+  }
+  
+  .value-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    object-fit: cover;
+  }

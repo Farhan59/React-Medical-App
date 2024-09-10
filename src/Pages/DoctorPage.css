@@ -1,0 +1,21 @@
+.doctor-page-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch; /* Ensures boxes stretch to equal height */
+    padding: 1rem;
+  }
+  
+  .doctor-box {
+    flex: 1;
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media (max-width: 768px) {
+    .doctor-box {
+      max-width: 100%;
+      margin-bottom: 1rem;
+    }
+  }
+  

@@ -1,0 +1,38 @@
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes slideIn {
+    from { transform: translateY(30px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+  
+  .about-section {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    animation: slideIn 1s ease-out;
+  }
+  
+  .about-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .about-description {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    animation: fadeIn 2.5s ease-in-out;
+  }
+  

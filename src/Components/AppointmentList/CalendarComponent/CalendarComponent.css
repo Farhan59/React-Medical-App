@@ -1,0 +1,54 @@
+.calendar-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .calendar-box,
+  .schedule-box {
+    width: 48%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    max-height: 300px; /* Adjust this value based on your design */
+    overflow-y: auto;
+  }
+  
+  li {
+    margin-bottom: 50px;
+  }
+  
+  .appointment-time {
+    font-weight: bold;
+    color: #444;
+  }
+  
+  .appointment-details {
+    margin-left: 10px;
+    color: #666;
+  }
+  
+  .react-calendar {
+    width: 100%;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .react-calendar__tile--active {
+    background: #008CBA !important;
+    color: white !important;
+  }
+  

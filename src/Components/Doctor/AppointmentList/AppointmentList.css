@@ -1,0 +1,42 @@
+.appointment-list {
+    flex: 1;
+    padding: 1.5rem;
+    margin: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .appointment-list h2 {
+    margin-bottom: 1rem;
+    color: #1a84b8;
+  }
+  
+  .appointment-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
+  }
+  
+  .appointment-list li {
+    margin-bottom: 0.5rem;
+    color: #666;
+  }
+  
+  .appointment-list button {
+    padding: 0.8rem 1.5rem;
+    background-color: #1a84b8;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .appointment-list button:hover {
+    background-color: #155a75;
+    transform: scale(1.05);
+  }
+  

@@ -1,0 +1,51 @@
+.patients-list-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .table-box,
+  .details-box {
+    width: 48%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .table-container {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  .table-container tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .patient-details {
+    margin-top: 10px;
+  }
+  
+  .patient-details p {
+    margin-bottom: 5px;
+  }
+  

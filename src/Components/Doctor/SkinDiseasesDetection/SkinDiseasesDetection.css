@@ -1,0 +1,65 @@
+.skin-diseases-detection {
+  flex: 1;
+  margin: 0 1rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skin-diseases-detection h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #1a84b8;
+}
+
+.skin-diseases-detection p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.skin-diseases-detection ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skin-diseases-detection ul li {
+  margin-bottom: 0.5rem;
+}
+
+.skin-diseases-detection input[type="file"] {
+  margin-bottom: 1rem;
+}
+
+.skin-diseases-detection .note {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.submit-button {
+  display: block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #1a84b8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+.submit-button:hover {
+  background-color: #165a7e;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  border-radius: 8px;
+  z-index: 1000;
+}
